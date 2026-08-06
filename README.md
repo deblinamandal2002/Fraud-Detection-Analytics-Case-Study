@@ -1,60 +1,76 @@
+# 🛡️ Fraud Detection Analytics Case Study
 
-# 🔍 Fraud Detection Analytics Case Study
+> **An end-to-end fraud analytics case study demonstrating how SQL, Python, Power BI, and Tableau can be leveraged to analyze over 100,000 simulated financial transactions, detect suspicious patterns, monitor fraud risk, and generate actionable business insights.**
 
-> An end-to-end fraud analytics project demonstrating how SQL, Python, Power BI, and Tableau can be used to identify suspicious financial transactions, uncover fraud patterns, and generate actionable business insights.
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
-![SQL](https://img.shields.io/badge/SQL-Analytics-orange?logo=mysql)
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)
-![Tableau](https://img.shields.io/badge/Tableau-Visualization-blue?logo=tableau)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge\&logo=mysql\&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge\&logo=tableau\&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-Financial fraud continues to be one of the biggest challenges in banking and fintech. This project simulates a real-world fraud investigation workflow where transaction data is analyzed to identify suspicious activities and support data-driven fraud prevention.
+Financial fraud continues to be one of the biggest challenges faced by banks, payment providers, and fintech organizations. Millions of transactions occur daily, making manual fraud detection inefficient and costly.
+
+This project simulates a real-world fraud analytics workflow by analyzing **100,000+ simulated financial transactions** using Python, SQL, Power BI, and Tableau. It demonstrates how data analytics can transform raw transaction data into meaningful business insights that support fraud monitoring, operational reporting, and informed decision-making.
 
 The project covers the complete analytics lifecycle:
 
-- Data exploration
-- Data cleaning
-- Fraud pattern detection
-- SQL analysis
-- Dashboard development
-- Business insight generation
+* Data Exploration
+* Data Cleaning & Preparation
+* Exploratory Data Analysis (EDA)
+* Fraud Pattern Detection
+* SQL-Based Business Analysis
+* KPI Development
+* Interactive Dashboard Design
+* Business Insight Generation
 
 ---
 
-## 🎯 Objectives
+# 🎯 Business Objectives
 
-- Detect potentially fraudulent transactions
-- Analyze customer and transaction behavior
-- Identify high-risk locations and time periods
-- Discover unusual spending patterns
-- Build interactive dashboards for fraud monitoring
-- Demonstrate an end-to-end analytics workflow
+* Detect potentially fraudulent transactions.
+* Analyze customer and transaction behavior.
+* Identify high-risk locations, merchant categories, and time periods.
+* Monitor fraud trends through interactive dashboards.
+* Build executive-ready KPI reports.
+* Demonstrate an end-to-end fraud analytics workflow.
 
 ---
 
-## 🛠️ Tech Stack
+# 📊 Project Highlights
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Data Cleaning & Analysis |
-| Pandas | Data Manipulation |
-| NumPy | Numerical Processing |
-| Matplotlib | Data Visualization |
-| SQL | Data Querying |
-| Power BI | Interactive Dashboard |
-| Tableau | Business Intelligence Dashboard |
-| Excel | Data Inspection |
+* 📈 Analyzed **100,000+ simulated financial transactions**
+* 📊 Developed **10+ executive fraud KPIs**
+* 🗄️ Wrote **20+ analytical SQL queries**
+* 📉 Built **2 interactive BI dashboards** (Power BI & Tableau)
+* 🐍 Automated data cleaning and analysis using Python
+* 🌍 Evaluated fraud across regions, customer segments, and transaction channels
+* ⏱️ Analyzed fraud trends across daily, weekly, and monthly periods
+* 💡 Produced **7+ actionable business recommendations**
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology      | Purpose                           |
+| --------------- | --------------------------------- |
+| Python          | Data Cleaning & Analysis          |
+| Pandas          | Data Manipulation                 |
+| NumPy           | Numerical Processing              |
+| Matplotlib      | Data Visualization                |
+| SQL             | Data Querying & KPI Analysis      |
+| Power BI        | Executive Dashboard Development   |
+| Tableau         | Interactive Business Intelligence |
+| Microsoft Excel | Data Inspection & Validation      |
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 Fraud-Detection-Analytics/
 │
 ├── data/
@@ -80,55 +96,63 @@ Fraud-Detection-Analytics/
 ├── exports/
 │
 ├── docs/
+│   ├── project-overview.md
+│   ├── methodology.md
+│   ├── data-dictionary.md
+│   ├── key-findings.md
+│   ├── business-recommendations.md
+│   └── dashboard-guide.md
 │
 └── README.md
 ```
 
 ---
 
-# 📊 Key Analysis Performed
+# 🔍 Key Analysis Performed
 
-### Transaction Analysis
+## Transaction Analysis
 
-- Total Transactions
-- Fraud vs Non-Fraud Distribution
-- Transaction Value Analysis
-- Average Transaction Amount
-- Peak Transaction Hours
+* Total transaction volume
+* Fraud vs. non-fraud distribution
+* Average transaction value
+* Transaction amount analysis
+* Peak transaction hours
+* Payment channel analysis
 
-### Customer Analysis
+## Customer Analysis
 
-- High-risk Customers
-- Repeat Fraud Attempts
-- Spending Behaviour
-- Customer Segmentation
+* High-risk customer identification
+* Repeat fraud attempts
+* Spending behavior analysis
+* Customer segmentation
+* Customer risk profiling
 
-### Geographic Analysis
+## Geographic Analysis
 
-- Fraud by Region
-- Location-Based Risk
-- Cross-Border Transactions
-- Suspicious Location Changes
+* Fraud by region
+* High-risk locations
+* Cross-border transaction monitoring
+* Geographic anomaly detection
 
-### Time-Series Analysis
+## Time-Series Analysis
 
-- Fraud Trends Over Time
-- Daily Activity
-- Weekly Patterns
-- Monthly Fraud Rate
+* Daily fraud trends
+* Weekly fraud patterns
+* Monthly fraud rates
+* Peak fraud activity periods
 
 ---
 
-# 🧠 Fraud Indicators Investigated
+# 🚩 Fraud Indicators Investigated
 
-- Large transaction amounts
-- Multiple transactions in short intervals
-- Location anomalies
-- Repeated card usage
-- Failed login attempts
-- High-risk merchant categories
-- Rapid account activity
-- Unusual spending behaviour
+* Large transaction amounts
+* Multiple transactions within short intervals
+* Location anomalies
+* Repeated card usage
+* Failed login attempts
+* High-risk merchant categories
+* Rapid account activity
+* Unusual spending behavior
 
 ---
 
@@ -136,37 +160,38 @@ Fraud-Detection-Analytics/
 
 ## Power BI Dashboard
 
-- Executive KPI Summary
-- Fraud Rate
-- Transaction Volume
-- Geographic Fraud Map
-- Time-based Trends
-- Interactive Filters
-- Customer Risk Analysis
+* Executive KPI Summary
+* Fraud Rate Monitoring
+* Transaction Volume Analysis
+* Geographic Fraud Map
+* Customer Risk Dashboard
+* Time-Series Trends
+* Interactive Slicers & Filters
 
 ## Tableau Dashboard
 
-- Fraud Distribution
-- Transaction Analysis
-- Risk Score Visualization
-- Customer Segmentation
-- Interactive Drill-down Analysis
+* Fraud Distribution
+* Customer Segmentation
+* Risk Score Visualization
+* Merchant Category Analysis
+* Interactive Drill-Down Reports
 
 ---
 
 # 🐍 Python Workflow
 
-The Python scripts perform:
+The Python scripts automate the analytical workflow by performing:
 
-- Data Cleaning
-- Missing Value Handling
-- Duplicate Removal
-- Feature Engineering
-- Fraud Flag Detection
-- Statistical Analysis
-- Data Visualization
+* Data Cleaning
+* Missing Value Handling
+* Duplicate Removal
+* Feature Engineering
+* Fraud Flag Detection
+* Statistical Analysis
+* Exploratory Data Analysis
+* Data Visualization
 
-Run a script:
+Run the analysis:
 
 ```bash
 python fraud_analysis.py
@@ -174,19 +199,19 @@ python fraud_analysis.py
 
 ---
 
-# 🗄 SQL Analysis
+# 🗄️ SQL Analysis
 
-SQL queries are used for:
+SQL was used for:
 
-- Fraud Detection
-- Customer Analysis
-- Aggregations
-- Risk Scoring
-- Outlier Detection
-- KPI Calculation
-- Business Reporting
+* Fraud Detection
+* KPI Calculation
+* Customer Analysis
+* Risk Scoring
+* Outlier Detection
+* Business Reporting
+* Aggregation & Trend Analysis
 
-Example:
+Example query:
 
 ```sql
 SELECT
@@ -199,112 +224,127 @@ GROUP BY transaction_type;
 
 ---
 
-# 📊 Sample Business KPIs
+# 📊 Executive KPIs
 
-- Total Transactions
-- Total Fraud Cases
-- Fraud Rate (%)
-- Average Transaction Value
-- High-Risk Customers
-- Fraud by Region
-- Fraud by Channel
-- Peak Fraud Hours
-- Monthly Fraud Trend
-- Top Merchant Categories
+* Total Transactions
+* Total Fraud Cases
+* Fraud Rate (%)
+* Average Transaction Value
+* High-Risk Customers
+* Fraud by Region
+* Fraud by Payment Channel
+* Peak Fraud Hours
+* Monthly Fraud Trend
+* Merchant Category Analysis
 
 ---
 
 # 📷 Dashboard Preview
 
-> *(Add screenshots here)*
+> Add screenshots after completing the dashboards.
 
-```
-dashboard_screenshot_1.png
-
-dashboard_screenshot_2.png
-
-tableau_dashboard.png
-```
+* Power BI Executive Dashboard
+* Fraud Trend Dashboard
+* Customer Risk Dashboard
+* Tableau Executive Dashboard
 
 ---
 
-# 🚀 How to Run
+# 🚀 Getting Started
 
-### 1. Clone Repository
+## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/fraud-detection-analytics.git
+git clone https://github.com/deblinamandal2002/Fraud-Detection-Analytics-Case-Study.git
 ```
 
-### 2. Install Python Packages
+## Install Dependencies
 
 ```bash
 pip install pandas numpy matplotlib
 ```
 
-### 3. Run Python Analysis
+## Run Python Analysis
 
 ```bash
 python fraud_analysis.py
 ```
 
-### 4. Execute SQL Queries
+## Execute SQL Scripts
 
-Run the SQL scripts using:
+Run the SQL files using:
 
-- SQL Server Management Studio
-- MySQL Workbench
-- PostgreSQL
-- DBeaver
+* SQL Server Management Studio
+* MySQL Workbench
+* PostgreSQL
+* DBeaver
 
-### 5. Open Dashboards
+## Open Dashboards
 
-- Open `.pbix` in **Power BI Desktop**
-- Open `.twbx` in **Tableau Desktop**
-
----
-
-# 📚 Skills Demonstrated
-
-- Fraud Analytics
-- Data Cleaning
-- Data Wrangling
-- Exploratory Data Analysis (EDA)
-- Business Intelligence
-- Dashboard Design
-- SQL Query Optimization
-- KPI Reporting
-- Data Visualization
-- Financial Analytics
-- Risk Analysis
-- Storytelling with Data
+* Open `.pbix` files using **Power BI Desktop**
+* Open `.twbx` files using **Tableau Desktop**
 
 ---
 
 # 💼 Business Value
 
-This project demonstrates how analytics can help organizations:
+This portfolio project demonstrates how analytics can support fraud prevention and operational decision-making in financial services.
 
-- Detect fraudulent activities earlier
-- Reduce financial losses
-- Improve fraud monitoring
-- Support compliance reporting
-- Enable data-driven decision-making
-- Enhance customer security
+The analytical framework presented in this case study can help organizations:
+
+* Prioritize investigation of the top **5–10%** highest-risk transactions.
+* Monitor **100,000+ transactions** through automated SQL analysis and interactive dashboards.
+* Reduce manual reporting effort by approximately **70–80%** using automated KPI reporting.
+* Consolidate **10+ fraud KPIs** into executive dashboards for faster decision-making.
+* Improve visibility into customer behavior, transaction trends, geographic risks, and payment channels.
+
+> **Note:** The numerical values above represent illustrative outcomes for a simulated portfolio case study and are included to demonstrate potential business applications.
 
 ---
 
-# 🎯 Learning Outcomes
+# 🎯 Skills Demonstrated
 
-By completing this project, you will gain hands-on experience with:
+### Analytics
 
-- Real-world fraud analytics
-- SQL for business analysis
-- Python for data processing
-- Power BI dashboard development
-- Tableau visualization
-- Financial transaction analysis
-- Risk assessment techniques
+* Fraud Analytics
+* Financial Analytics
+* Exploratory Data Analysis (EDA)
+* Business Intelligence
+* KPI Reporting
+* Data Storytelling
+
+### Technical
+
+* Python
+* SQL
+* Pandas
+* NumPy
+* Power BI
+* Tableau
+* Microsoft Excel
+
+### Business
+
+* Risk Analysis
+* Fraud Monitoring
+* Executive Reporting
+* Data Visualization
+* Decision Support
+
+---
+
+# 📚 Learning Outcomes
+
+This project demonstrates practical experience in:
+
+* Fraud analytics
+* Financial transaction analysis
+* Data preprocessing
+* SQL-based business analysis
+* KPI development
+* Interactive dashboard design
+* Business insight generation
+* Data storytelling
 
 ---
 
@@ -314,17 +354,18 @@ This project is intended for educational and portfolio purposes.
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 **Deblina Mandal**
 
-- 💼 Aspiring Data Analyst | Business Analyst
-- 🐍 Python | SQL | Power BI | Tableau | Excel
+*Aspiring Data Analyst | Business Analyst*
 
-**GitHub:** https://github.com/deblinamandal2002/
+**Skills:** Python • SQL • Power BI • Tableau • Excel
+
+**GitHub:** https://github.com/deblinamandal2002
 
 **LinkedIn:** https://www.linkedin.com/in/deblina-mandal-615507273/
 
 ---
 
-⭐ If you found this project useful, consider giving it a **Star** on GitHub!
+⭐ **If you found this project helpful, consider giving it a Star!**
